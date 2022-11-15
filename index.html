@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GJS | Pacotes e Viagens Promocionais</title>
+
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!--CSS 3-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/" type="image/x-icon">
+</head>
+<body>
+    <header id="cabecalho"><!--Cabeçalho-->
+        <div class="logo">
+            <img src="img/logo.png" alt="GJS|Pacotes e Viagens Promocionais">
+        </div>
+
+        <nav id="navegacao">
+            <a href="#secao1">Pacotes e Promoções</a>
+            <a href="#secao2">Destinos</a>
+            <a href="#secao3">Quem somos</a>
+
+            <div class="mobile-icon" style="display: none;">
+                <button>
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                </button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu" style="display: none;">
+            <a href="#secao1">Pacotes e Promoções</a>
+            <a href="#secao2">Destinos</a>
+            <a href="#secao3">Quem somos</a>
+        </div>
+    </header><!--Cabeçalho-->
+
+    <main>
+        <div class="fundo" id="#secao1"><!--Fundo-->
+            <div id="apresentacao">
+                <h1>Ficou Interessando?
+                </h1>
+
+                <p>
+                    Deixe seus dados que retornaremos o contato para esclarecer todas as suas dúvidas e oferecer uma super oferta.                </p>
+            </div>
+
+            <div id="formulario">
+                <h2>Monte seu pacote </h2>
+
+                <form>
+                    <label>Nome Completo</label><br>
+                    <input type="text" id="" placeholder="Insira seu nome"><br><br>
+                    <label>E-mail</label><br>
+                    <input type="email" id="" placeholder="Insira seu e-mail"><br><br>
+                    <label>WhatsApp</label><br>
+                    <input type="number" id="" placeholder="Informe seu telefone"><br><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div><!--Fundo-->
+
+        <section id="secao2">
+            <h3>DESTINOS PROMOCIONAIS</h3>
+            <div id="pacotes">
+                <div class="caixa">
+                    <h4>Descubra a França</h4>
+
+                    <img src="img/frança.jpeg" alt="Paris">
+                    <figcaption class="descricao">Paris - R$ 6.580,00</figcaption>
+                    
+                    <p>
+                        França lidera com quase 90 milhões de visitantes por ano. O que atrai a França? A gastronomia, os vinhos, os castelos, a arte, as ruas parisienses… Pode-se voltar à França vinte vezes e continuar descobrindo destinos.                     </p>
+
+                    <button id="botao-plano">Vagas Limitadas</button>
+                </div>
+                <div class="caixa">
+                    <h4>Descubra a Espanha</h4>
+
+                    <img src="img/espanha.jpeg" alt="Espanha">
+                    <figcaption class="descricao">Barcelona - R$ 7.670,00</figcaption>
+                    
+                    <p>
+                        Espanha Tem 47 sítios que a UNESCO declarou Património Mundial, Excepcionais praias atlânticas e mediterrâneas, aldeias medievais, castelos, festivais, igrejas...                     </p>
+
+                    <button id="botao-plano">Vagas Limitadas</button>
+                </div>
+                <div class="caixa">
+                    <h4>Descubra a Itália</h4>
+
+                    <img src="img/italia.jpeg" alt="Itália">
+                    <figcaption class="descricao">Roma - R$ 6.820,00</figcaption>
+                    
+                    <p>
+                        Por ano estima-se que cerca de 62 milhões de pessoas visitam a Itália. Se você gosta da história do Império Romano, é o melhor destino de todos. Roma É uma cidade que pode ser explorada a pé e que a cada passo oferece memórias.                    </p>
+
+                    <button id="botao-plano">Vagas Limitadas</button>
+                </div>
+                
+          </div>
+        </section>
+
+        <section id="secao3">
+            <h3>Quem somos</h3>
+
+            <p>
+                A GJS tem as melhores ofertas de pacotes de viagem, hospedagem, passagens aéreas, ingressos e aluguel de carro! Aproveite nossas facilidades e condições de pagamento.            </p>
+
+            <div id="container-sobre">
+                <div class="caixa-sobre">
+                    <i class="fa-solid fa-earth-asia fa-2xl"></i>
+
+                    <h5>Passagens imperdíveis</h5>
+
+                    <p>
+                        Compre passagens aéreas com até 50% de desconto!
+                    </p>
+                </div>
+
+                <div class="caixa-sobre">
+                    <i class="fa-solid fa-route fa-2xl"></i>
+
+                    <h5>Roteiros</h5>
+
+                    <p>
+                        Roteiros personalizados e flexíveis.
+                    </p>
+                </div>
+
+                <div class="caixa-sobre">
+                    <i class="fa-solid fa-suitcase fa-2xl"></i>
+
+                    <h5>Reserve</h5>
+
+                    <p>
+                        Faça sua reserva e confira condições imperdivéis para a sua próxima viagem.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="rodape">
+        <div class="container-rodape">
+            <p>
+                <strong>Autor:</strong> Geonaldo Sousa
+            </p>
+
+            <h2>GJS</h2>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
